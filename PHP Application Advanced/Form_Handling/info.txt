@@ -1,0 +1,26 @@
+There are two ways the browser client can send information to the web server.
+
+    The GET Method
+    The POST Method
+
+Before the browser sends the information, it encodes it using a scheme called URL 
+encoding. 
+In this scheme, name/value pairs are joined with equal signs and different pairs 
+are separated by the ampersand.
+
+The GET Method
+
+The GET method sends the encoded user information appended to the page request.
+The page and the encoded information are separated by the ? character.
+
+The POST Method
+
+The POST method transfers information via HTTP headers. 
+The information is encoded as described in case of GET method and put into a 
+header called QUERY_STRING.
+
+The $_REQUEST variable
+
+The PHP $_REQUEST variable contains the contents of both $_GET, $_POST, 
+and $_COOKIE.
+
