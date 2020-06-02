@@ -1,0 +1,11 @@
+Cookies are small files that are stored in the visitor's browser.
+Cookies can have a long lifespan, lasting months or even years.
+Cookies are limited in size depending on each browser's default settings.
+Cookies can be disabled if the visitor's browser does not allow them (uncommon).
+Cookies can be edited by the visitor. (Do not use cookies to store sensitive data.)
+
+Sessions are small files that are stored on the website's server.
+Sessions have a limited lifespan; they expire when the browser is closed.
+Sessions are only limited in size if you limit their size on the server.
+Sessions cannot be disabled by the visitor because they are not stored in the browser.
+Sessions cannot be edited by the visitor. 
